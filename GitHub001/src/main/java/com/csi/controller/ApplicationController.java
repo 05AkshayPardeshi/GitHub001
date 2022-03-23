@@ -18,4 +18,9 @@ public class ApplicationController {
         return "AKSHAY PARDESHI..!";
     }
 
+    @GetMapping("/hello")
+    public String sayHello(){
+        return "hello";
+    }
+
 }
